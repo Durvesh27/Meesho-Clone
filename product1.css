@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 53, 67);
+}
+header{
+    width: 100%;
+    height: 126px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    /* border: 1px solid red; */
+}
+
+.top1{
+    width: 90%;
+    height: 72px;
+    /* border: 1px solid green; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top1-left{
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.top1-left img{
+    height: 70px;
+    width: 195px;
+}
+.top1-left input{
+    width:65%;
+    height:45px;
+    padding: 11px 0;
+    padding-left: 35px ;
+    font-size: 14px;
+    border: 1px solid grey;
+    outline: none;
+}
+.top1-left i{
+    position: absolute;
+ left:222px;   
+}
+
+.br{
+    width:2px;
+    height: 40px;
+    background-color: grey;
+}
+
+.top1-right{
+    width: 42%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.top2{
+    width: 90%;
+    height: 52px;
+    /* border-top: 1px solid blue; */
+    margin: auto;
+
+}
+.top2-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.top2-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.profile{
+    font-size: 15px;
+}
+/* body */
+.body{
+    width:100%;
+}
+.section-3{
+    width:88%;
+    margin:auto;
+}
+.section-3top{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.section-3flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-3left{
+    width:23%;
+    /* border:1px solid red; */
+}
+.section-3right{
+    width:75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border:1px solid blue;  */
+}
+.box1-3D{
+    width:100%;
+}
+.box1-3D .sort{
+    border: 1px solid rgb(234, 234, 242);
+    width: 100%;
+    padding:10px 24px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select{
+    min-width: 59px;
+    max-height: 282px;
+    /* border: 1px solid orange; */
+    overflow-y: scroll;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.select .item{
+    padding:16px 24px 16px 16px;
+    /* box-sizing: border-box; */
+}
+.select .item:nth-child(1){
+    background-color: rgb(255, 231, 251);
+}
+
+.one{
+    width:100%;
+    margin-bottom: 15px;
+    /* padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px; */
+    padding: 18px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(234, 234, 242);
+    border-radius: 4px;
+}
+.left-box{
+    
+    padding-top:20px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(220, 217, 217);
+    border-bottom: 1px solid rgb(220, 217, 217);
+    position: relative;
+}
+.left-name{
+    font-size: 17px;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-content i{
+    position: absolute;
+    top: 63px;
+    left: 14px;
+    color: grey;
+}
+
+.left-content input[type=search]{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    padding-left: 40px;
+    margin-top: 12px;
+}
+.left-row{
+    margin: 22px 0;
+    display: flex;
+    align-items: center;
+}
+.left-row input[type=checkbox]{
+    width:18px;
+    height:18px;
+    color: rgb(97, 97, 115);
+}
+
+.left-row span{
+    margin-left: 8px;
+    color: rgb(97, 97, 115);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.gender{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gender span{
+    margin-right: 8px;
+    margin-bottom: 10px;
+    color: rgb(97, 97, 115);
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid rgb(234, 234, 242);
+    border-radius: 16px;
+    padding: 8px 16px;
+   
+
+    
+}
+
+.main{
+    width:228px;
+    border:1px solid grey;
+    margin-bottom: 20px;
+}
+.main i{
+   color: white;
+}
+.main img{
+    width:228px; 
+    height: 232px;
+    object-fit: contain;  
+}
+.text{
+    padding:12px;
+}
+.color{
+    color: rgb(139, 139, 163);
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-12{
+    font-size: 12px;
+}
+
+
+
+
